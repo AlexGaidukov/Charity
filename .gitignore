@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Icon?
+
+# Windows / Linux
+Thumbs.db
+Desktop.ini
+*~
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Agent / tool artifacts
+.playwright-mcp/
+.playwright/
+playwright-report/
+test-results/
+blob-report/
+.claude/settings.local.json
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs / temp
+*.log
+tmp/
